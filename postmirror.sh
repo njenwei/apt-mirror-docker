@@ -8,3 +8,4 @@ bash /var/spool/apt-mirror/var/clean.sh
 
 # Clean 0B files
 find "/var/spool/apt-mirror/mirror/archive.ubuntu.com/ubuntu/dists" -size 0 -exec rm -f {} \;
+find "/var/spool/apt-mirror/mirror/packages.ros.org/ros/ubuntu/dists" -size 0 -exec rm -f {} \;
